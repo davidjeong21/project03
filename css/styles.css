@@ -1,0 +1,159 @@
+/*	****************************************
+	General
+	**************************************** */
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+p { margin-top: 0; }
+
+/*	****************************************
+	First Section of First Page
+	**************************************** */
+#first{
+	background-image: url("../images/boston.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	position: relative;
+}
+#first h1 {
+	color: #ffe100;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 50px;
+	font-weight:400;
+	padding:10px;
+	margin:0px;
+}	
+#first h2 {
+	color: #f2f2f2;
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 30px;
+	font-weight:400;
+	padding:10px;
+	margin:0px;
+}	
+#first .content {
+	font-family: 'Josefin Sans', sans-serif;
+	font-size: 25px;
+	font-weight:400;
+	display: flex;
+	color: white;
+
+	position:absolute;
+	bottom:100px;
+	left:0px;
+	right:0px;
+	background-color: rgba(71, 70, 69,0.5);
+
+	padding-right: 250px;
+	padding-top:10px;
+}
+#first p {
+	padding-top: 15px;
+	padding-left: 250px;
+	padding-right: 10px;
+	padding-bottom:0px;
+}
+#first a{
+	text-decoration: none;
+	color: white;
+	background-color: #d38d00;
+	text-align:center;
+	padding: 10px;
+	margin-bottom:10px;
+}
+#first a:hover {
+	color:orange;
+	background-color:white;
+}
+/*	****************************************
+	Second Section of First Page
+	**************************************** */
+#second {
+	background-color: #e0fffd;
+}
+
+#second h1 {
+	font-size:35px;
+	color:black;
+}
+#second .f1 {
+	display:inline-block;
+}
+#second .content {
+	background-color: rgba(71, 70, 69,0.1);
+	padding-bottom:20px;
+}
+#second img {
+	float:left;
+	padding-right:60px;
+	padding-left:20px;
+	padding-top:20px
+}
+#second p {
+	padding-top:40px;
+	padding-right:100px;
+	font-size:25px;
+}
+.button {
+	text-decoration:none;
+	background-color:#d38d00;
+	padding:10px;
+	color:white;
+}
+.button:hover {
+	color:orange;
+	background-color:white;
+}
+/*	****************************************
+	Second Page (Gallery Page)
+	**************************************** */
+#third {
+	background-color:#eee;
+}
+#third img {
+	float:left;
+	padding-left: 20px;
+	padding-right:30px;
+	padding-bottom:30px;
+}
+#third .textt {
+	padding-right:80px;
+}
+#third h1 {
+	padding-top:20px;
+	font-size:30px;
+}
+#third p {
+	padding-top:9px;
+	font-size:20px;
+	padding-bottom:20px;
+}
+#third a {
+	font-size: 20px;
+}
+/*	****************************************
+	Third Page (Contact Page)
+	**************************************** */
+#fourth {
+	background-color: #8bd1f9;
+}
+form {
+	background-color: #3a99ff;
+	padding: 20px;
+	font-size:25px;
+	color:#ffe100;
+	margin-top:50px;
+}
+/*	****************************************
+	Modules (reusable classes)
+	**************************************** */
+.container {
+	margin: 0 auto;
+	width: 95%;
+	max-width: 960px; 
+}
+
+.content {
+	text-align: left;
+	overflow: auto;
+}
